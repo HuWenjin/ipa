@@ -44,14 +44,25 @@ function installApp(){
     if(window.navigator.standalone){ 
         var event = document.createEvent("MouseEvents");
         event.initEvent("click", true, true);
-        document.getElementById("install").dispatchEvent(event);
+        document.getElementById("installC").dispatchEvent(event);
     }
 }
 </script>
 </head>
 <body onLoad="installApp();">
-<div class="link"><a id="install" href="itms-services://?action=download-manifest&url=https://github.com/HuWenjin/ipa/raw/master/TechnikaAppSolutionV1.6.1.plist">Install Technika App Solution V1.6</a></div>
-<div class="link"><a id="install" href="itms-services://?action=download-manifest&url=https://github.com/HuWenjin/ipa/raw/master/TechnikaRadioAppV1.plist">Install Technika Radio App V1</a></div>
+<div>不从appStore安装APP程序</div>
+<div>建议:安装有银行软件\个人隐私的手机不要安装非appStore软件</div>
+<br>
+<div>安装technike床头闹钟iPhone4配套软件,请注意:从第三方软件站获取ipa文件,可信度不高.</div>
+<br>
+<div>从国内http服务器安装(iOS9出现安装过程,提示无法下载,实际ipa文件链接有效)</div>
+<div class="link"><a id="installA" href="itms-services://?action=download-manifest&url=https://github.com/HuWenjin/ipa/raw/master/TechnikaAppSolutionV1.6.1.plist">Install Technika App Solution V1.6</a></div>
+<div class="link"><a id="installB" href="itms-services://?action=download-manifest&url=https://github.com/HuWenjin/ipa/raw/master/TechnikaRadioAppV1.plist">Install Technika Radio App V1</a></div>
+
+<br>
+<div>从国外https服务器安装</div>
+<div class="link"><a id="installC" href="itms-services://?action=download-manifest&url=https://github.com/HuWenjin/ipa/raw/master/httpsTechnikaAppSolutionV1.6.1.plist">Install Technika App Solution V1.6</a></div>
+<div class="link"><a id="installD" href="itms-services://?action=download-manifest&url=https://github.com/HuWenjin/ipa/raw/master/httpsTechnikaRadioApp2V1.plist">Install Technika Radio App V1</a></div>
 <div class="guide"><b>Add to Home Screen</b> to create shortcut icon on your device.</div>
 </body>
 </html>
