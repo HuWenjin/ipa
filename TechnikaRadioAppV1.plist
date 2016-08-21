@@ -17,12 +17,12 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.fnst.smartwork</string>
+				<string>com.Technik.RadioApp</string>
 				<key>bundle-version</key>
-				<string>1.6</string>
+				<string>1.0</string>
 				<key>kind</key>
-				<string>Technika App Solution</string>
-				<key>安装软件</key>
+				<string>software</string>
+				<key>title</key>
 				<string>TechnikaRadioAppV1.ipa</string>
 			</dict>
 		</dict>
